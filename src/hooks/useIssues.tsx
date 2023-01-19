@@ -50,10 +50,12 @@ export const useIssues = ( { state, labels }: Props ) => {
         */
 
         // {
-        //     onSuccess : () => {
+        //     onSuccess : (data) => {
+                   console.log(data) 
         //         console.log('data obtenida')
         //     },
-        //     onError: () => {
+        //     onError: (error) => {
+                    console.log(error)
         //         console.log('Mostrar error')
         //     }
             
